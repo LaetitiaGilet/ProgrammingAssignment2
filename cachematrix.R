@@ -31,5 +31,5 @@ cacheSolve <- function(x, ...){ # with x a matrix created with makeCacheMatrix
         my_matrix<- x$get() # my_matrix is a copy of x
         
         inv<-solve(my_matrix,...) #  #computes inv with the solve function
-        inv # return inv the inverse matrix of x
+        inv # returns inv the inverse matrix of x
 }
